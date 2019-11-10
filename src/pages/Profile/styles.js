@@ -1,5 +1,5 @@
 import styled from 'styled-components/native';
-import { KeyboardAvoidingView } from 'react-native';
+// import { KeyboardAvoidingView } from 'react-native';
 
 import Input from '~/components/Input';
 import Button from '~/components/Button';
@@ -9,7 +9,7 @@ export const Container = styled.SafeAreaView`
 `;
 
 // export const Container = styled(KeyboardAvoidingView).attrs({
-//   behavior: 'padding',
+//   behavior="padding" enabled
 // })`
 //   flex: 1;
 // `;

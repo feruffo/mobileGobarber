@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Icon from 'react-native-vector-icons/MaterialIcons';
+import { useDispatch } from 'react-redux';
 import api from '~/services/api';
 
 import Background from '~/components/Background';
@@ -34,6 +35,10 @@ export default function Dashboard() {
       )
     );
   }
+
+  // function handleSignOut() {
+  //   dispatch(signOut());
+  // }
 
   return (
     <Background>
